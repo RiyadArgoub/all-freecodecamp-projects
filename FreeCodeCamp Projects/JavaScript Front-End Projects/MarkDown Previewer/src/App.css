@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(64, 104, 104);
+  text-align: center;
+  color:white;
+}
+
+
+a:visited {
+  color: #0000EE;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.textarea {
+  width:60%;
+  font-size: 18px;
+  padding: 22px;
+  outline: none;
+  background-color: rgb(43, 69, 69);
+  border: 1px solid black;
+  color: white;
+  height: 300px;
+}
+
+.textarea:focus{
+  box-shadow: 0px 0px 3px 3px royalblue;
+}
+
+#preview {
+  padding:40px;
+  margin: auto;
+  text-align: left;
+  background-color: rgb(43, 69, 69);
+  border: 1px solid black;
+  width: 70%;
+}

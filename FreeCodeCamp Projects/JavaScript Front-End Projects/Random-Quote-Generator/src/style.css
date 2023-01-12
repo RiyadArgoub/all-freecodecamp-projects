@@ -1,0 +1,29 @@
+$brandColor: darkorchid;
+.newColor {
+  background-color:blue
+}
+table {
+  border: 1px solid black;
+  border-style:solid;
+  border-color:red;
+}
+th,tr,td {
+  border: 1px solid black;
+  border-style:solid;
+  border-color:red;
+}
+body {
+  font-family: system-ui;
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to bottom,
+    $brandColor,
+    darken($brandColor, 15%)
+  )
+}
+button {
+    color:white;
+}
